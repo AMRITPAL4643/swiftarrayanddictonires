@@ -9,4 +9,9 @@
 import Foundation
 
 print("Hello, World!")
+//var a:Bool
+//if(true < false)
+//{
+ //   print("thanks")
+//}
 
