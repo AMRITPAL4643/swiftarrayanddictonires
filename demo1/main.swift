@@ -15,3 +15,15 @@ print("Hello, World!")
  //   print("thanks")
 //}
 
+var s:String = "hello"
+var str = String()
+str = "hello world"
+print(str)
+var p:String
+p = "call me"
+print(p,str,s)
+print(str.hasPrefix("hello"))
+
+print(str.lowercased())
+print(str.description)
+print(s.count)
