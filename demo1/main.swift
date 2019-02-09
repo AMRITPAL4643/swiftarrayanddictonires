@@ -94,7 +94,62 @@ var z = Array<Int>()
 z.append(1000)
 print(z)
 
+//example
+//var j = [Int]()
+//var k = j.count
 
+
+// set data structure
+//no reapeat
+var s1 = Set<String>()
+s1.insert("canada")
+s1.insert("USA")
+s1.insert("INDIA")
+s1.insert("RUSSIA")
+s1.insert("BRAZIL")
+s1.insert("CHINA")
+print(s1)
+
+//wiil not insert it again
+s1.insert("india")
+print(s1)
+// dictionary example
+
+var d = [1: "abc",
+         2:"hello"]
+print("dictionary example")
+print(d)
+d[3] = "hello world"
+print(d)
+var country = Dictionary<String, String>()
+country.updateValue("india", forKey: "IND")
+country.updateValue("China", forKey: "CHI")
+country.updateValue("Brazil", forKey: "BZL")
+country.updateValue("Mexico", forKey: "mex")
+print(country)
+// just keys and values
+for i in country
+{
+    print(i)
+    print(i.key, i.value)
+}
+
+for(k, v) in country
+{
+    print(k, v)
+}
+for(_, v) in country
+{
+    print(v)
+}
+for k in country.keys
+{
+    print(k)
+}
+for v in country.values
+{
+    print(v)
+}
 
 
 
