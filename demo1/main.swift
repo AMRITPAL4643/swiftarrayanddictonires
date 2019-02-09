@@ -27,3 +27,25 @@ print(str.hasPrefix("hello"))
 print(str.lowercased())
 print(str.description)
 print(s.count)
+//display chracter by charcter from string
+for c in str{
+    print(c)
+}
+var x = 5...10
+for i in x
+{
+    print(i)
+}
+print(x)
+
+
+var y = ...50
+if(y.contains(-100))
+{
+    print("true")
+}
+if(y.contains(-1000))
+{
+    print("true")
+}
+
