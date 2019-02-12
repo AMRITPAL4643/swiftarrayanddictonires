@@ -88,3 +88,43 @@ a /= 10
     return reverse
 }
 print("reverse of number: ", reverse(n: 23454))
+
+
+//recurrsion
+
+//func sumN(n: Int) -> Int
+//{
+    
+  //  if n == 1{
+    //    return 0
+    //}
+    //else{
+      //  return n + sumN(n: n - 1)
+    //}
+//}
+
+
+// BINARY TO DECIMAL
+//input - 1111 output 15
+//input - 1010 output 10
+
+func btd(n: Int) -> Int
+{
+    var a: Int = 0
+    for i in a...
+    {
+        if a == 0
+        {
+             a = a * 2
+            print(a)
+        }
+        else {
+             a = a * 2 + 1
+        print(a)
+        }
+    }
+    return a; 
+
+}
+let d = btd(n: 111)
+print(d)
