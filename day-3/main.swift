@@ -40,4 +40,32 @@ func sub( _ a: Int, _ b : Int)
 }
 sub(200,6)
 
+func greet(name: String)->String
+{
+    let s = "welcome,\(name)"
+    return s;
+}
+let s = greet(name: "amrit")
+print(s)
+
+// tuples in functions
+
+func  exchange(a:Int, b:Int ) -> (Int,Int)
+{
+    return(a,b);
+}
+ var x = 100
+var  y = 200
+print(x,y)
+(x,y) = exchange(a: x, b: y)
+print(x,y)
+
+//default values
+func si(amount: Float = 1000, rate: Float, noofyear: Float = 2) -> Float
+{
+    return(amount * rate * noofyear) / 100.0
+}
+print(si(amount: 1000, rate: 2.5, noofyear: 10))
+print(si(amount: 1000, rate: 2.5))
+
 
