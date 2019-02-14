@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B4C8A322214D3C800B809C5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C8A312214D3C800B809C5 /* main.swift */; };
+		9B4C8A392214E86C00B809C5 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C8A382214E86C00B809C5 /* Student.swift */; };
+		9B4C8A3B2214E9C100B809C5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C8A3A2214E9C100B809C5 /* Person.swift */; };
+		9B4C8A3D2214EA0F00B809C5 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C8A3C2214EA0F00B809C5 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9B4C8A2E2214D3C800B809C5 /* day-4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "day-4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4C8A312214D3C800B809C5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B4C8A382214E86C00B809C5 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B4C8A3A2214E9C100B809C5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B4C8A3C2214EA0F00B809C5 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				9B4C8A312214D3C800B809C5 /* main.swift */,
+				9B4C8A382214E86C00B809C5 /* Student.swift */,
+				9B4C8A3A2214E9C100B809C5 /* Person.swift */,
+				9B4C8A3C2214EA0F00B809C5 /* Car.swift */,
 			);
 			path = "day-4";
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4C8A3B2214E9C100B809C5 /* Person.swift in Sources */,
 				9B4C8A322214D3C800B809C5 /* main.swift in Sources */,
+				9B4C8A3D2214EA0F00B809C5 /* Car.swift in Sources */,
+				9B4C8A392214E86C00B809C5 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

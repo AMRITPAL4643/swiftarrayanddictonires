@@ -7,64 +7,78 @@
 //
 
 import Foundation
-// how to create classes and structues
 
-class Person
-{
-    var pid: Int = 0
-    var fname: String!
-    var lname: String?
-    
-    func setData()
-    {
-        fname = "amritpal"
-        lname = "singh"
-    }
-        func display()
-        {
-          //  print(pid)
-           // print(fname)
-            //print(lname!)
-          //  let l = lname ?? "singh"
-            if let f = fname , let l = lname
-            {
-            let s = fname + " " + l
-            print(s)
-            }
-    }
-    
-}
- var p1 = Person()
+var p1 = Person()
 p1.setData()
 p1.display()
-
-
-class Student {
-    private var sid: Int = 0
-    private var fname: String = ""
-   private var lname: String = ""
-    init()
-    {
-        sid = 0
-        fname = String()
-        lname = String()
-    }
-    init(sid: Int, fname: String, lname: String)
-    {
-        self.sid = sid
-        self.fname = fname
-        self.lname = lname
-    }
-    func display()
-    {
-        print("Student Id : \(self.sid)")
-        print("Student First name : \(self.fname)")
-        print("Student lastname : \(self.lname)")
-    }
-}
 
 var s1 = Student()
 s1.display()
 
-            let s2 = Student(sid: 200, fname: "amrit", lname: "singh")
+let s2 = Student(sid: 200, fname: "amrit", lname: "singh")
 s2.display()
+//array using with dictoinary
+
+var studentArray = [Student]()
+
+studentArray.append(s1)
+studentArray.append(s2)
+for s in studentArray
+{
+    s.display()
+}
+
+
+var s = Car()
+s.vin = "2 jdvn"
+s.model = "toyata"
+s.color = .blue
+s.type = "corolla"
+s.speed = 70.0
+
+s.display()
+for c in color.allCases
+{
+ print(c)
+}
+
+
+ // structure example
+struct employee
+{
+    var eid: Int
+    var enm: String
+    var salary: Float
+    init()
+    {
+      self.eid = -1
+        self.enm = String()
+        self.salary = 0.0
+    }
+    func display()
+    {
+        print(self.eid)
+        print(self.enm)
+        print(self.salary)
+    }
+    mutating func setName(name:String)
+    {
+        self.enm = name
+    }
+}
+//var e1 = employee(eid: 1,enm: "ash rai", salary: 1200.00)
+var e1 = employee()
+
+
+var i:  Int = 100
+var a: Int
+a = i
+a = 200
+//print(i,a)
+
+var e2 = e1
+e2.eid = 200
+e2.setName(name: "amritpal singh")
+e2.display()
+
+
