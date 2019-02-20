@@ -8,5 +8,14 @@
 
 import Foundation
 
-print("Hello, World!")
+let a = Student()
+print("studentId")
+    let id=readLine()!
+print("studentname")
+let name=readLine()!
+print("studentlname")
+let lname=readLine()!
+print("studentlemail")
+let email=readLine()!
 
+a.stud(sid:id,fname: name,lname: lname,email: email)
